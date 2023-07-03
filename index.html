@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/styles.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="js/scripts.js" type="module" defer></script>
+		<title>CMA</title>
+	</head>
+
+	<body>
+		<div class="page-wrap">
+			<header>
+				<h1>Comm Maintenance Assistant</h1>
+			</header>
+			<nav>
+				<a href="pages/technical-orders.html">Technical Orders</a>
+				<a href="pages/technical-orders.html">TOs (REFERENCE ONLY)</a>
+				<a href="pages/troubleshooting-reference.html"
+					>Remote Troubleshooting Reference</a
+				>
+				<a href="pages/imds-debriefing-guide.html">IMDS Debriefing Guide</a>
+				<a href="pages/schedule.html">Schedule</a>
+				<a href="pages/recall-roster.html">Recall Roster</a>
+				<a href="pages/calculators.html">Calculators</a>
+				<a href="pages/air-force-links.html">Air Force Links</a>
+				<a href="pages/duty-links.html">Duty Links</a>
+			</nav>
+			<main>
+				<section id="disclaimer">
+					<div class="main-content">
+						<p>
+							This is a live demo of a website that I build for my maintenance
+							shop while in the Air Force. Please note that all sensitive
+							information has been replaced with placeholder content and this
+							live demo does not represent the final product that I deployed for
+							my shop.
+						</p>
+						<p>
+							Comm Maintenance Assistant (CMA) is a web-based application
+							purposefully designed to aid maintenance personnel in the
+							performance of their maintenance duties. CMA presents a wide range
+							of vital resources, including a debriefing guide for the
+							Integrated Maintenance Data System (IMDS), a distance calculation
+							module, a technical order guide, a recall roster, a live schedule,
+							troubleshooting references, and an array of Air Force and
+							duty-related links.
+						</p>
+						<p>
+							Comm Maintenance Assistant (CMA) website was created by SSgt
+							Branden Knight and is licensed under the MIT license. This site is
+							for reference purposes only and should not be used as a primary
+							source of information.
+						</p>
+					</div>
+				</section>
+			</main>
+		</div>
+		<footer>
+			<div id="weather-widget" class="weather-widget">
+				<p id="location"></p>
+				<p><span id="temperature"></span> | <span id="description"></span></p>
+			</div>
+			<div class="footer-content">
+				<p>
+					&copy; 2023 Comm Maintenance Assistant. Made by SSgt Branden Knight.
+					All rights reserved. |
+					<a href="LICENSE" class="licenseLink">MIT License</a>
+					<a
+						href="mailto:CMA-Requests@example.com?subject=Feature%20Request%20or%20Issue&body=Please%20describe%20the%20issue%20you%20are%20having%20or%20describe%20the%20feature%20you%20would%20like%20to%20have%20implemented."
+						>Submit Issue/Feature Request</a
+					>
+				</p>
+			</div>
+			<div id="time-widget" class="time-widget">
+				<p id="local-time" class="time"></p>
+				<p id="utc-time" class="time"></p>
+			</div>
+		</footer>
+
+		<div id="licenseModal" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<pre id="licenseText"></pre>
+			</div>
+		</div>
+	</body>
+</html>
